@@ -1,7 +1,7 @@
 // Branding and content constants
 export const branding = {
     // Header branding
-    logo: "J",
+    logo: "Spartan",
 
     // Footer branding
     footerTitle: "Spartan0xKing",

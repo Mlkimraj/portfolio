@@ -9,7 +9,7 @@
             <h2 class="text-5xl md:text-6xl font-bold text-white mb-8">Get In Touch</h2>
             <p class="text-xl md:text-2xl text-white/90 mb-4 max-w-3xl mx-auto leading-relaxed">
                 Want to chat? Just shoot me a dm with a direct
-                <span class="text-secondary-400 font-medium">question on twitter</span>
+                <a href="https://x.com/SpartanPrimeX" target="_blank" class="text-secondary-400 font-medium">question on twitter</a>
                 and I'll respond whenever I can.
             </p>
         </div>

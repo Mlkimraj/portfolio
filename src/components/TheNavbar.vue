@@ -5,8 +5,8 @@
             <div class="flex items-center justify-between h-16">
                 <!-- Logo -->
                 <div class="flex-shrink-0">
-                    <div class="w-10 h-10 bg-white rounded-lg flex items-center justify-center">
-                        <span class="text-gray-800 font-bold text-lg">{{ branding.logo }}</span>
+                    <div class="px-4 py-2 bg-white/10 backdrop-blur-sm rounded-lg flex items-center justify-center border border-white/20">
+                        <span class="text-white font-bold text-lg tracking-wide">{{ branding.logo }}</span>
                     </div>
                 </div>
 
