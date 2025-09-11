@@ -4,7 +4,7 @@ export const branding = {
     logo: "J",
 
     // Footer branding
-    footerTitle: "GraphicDesigner",
+    footerTitle: "Spartan0xKing",
     copyright: "Copyright © 2025 Graphic Portfolio",
 
     // Hero section content

@@ -14,7 +14,7 @@ const props = defineProps({
 <template>
     <div class="relative">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex flex-col lg:flex-row justify-between items-start lg:items-end space-y-8 lg:space-y-0">
+            <div class="flex flex-col lg:flex-row justify-between items-start lg:items-end space-y-8 lg:space-y-0 border-t border-primary-500 pt-8">
                 <!-- Left Side - Brand and Navigation -->
                 <div class="flex flex-col space-y-6">
                     <h3 class="text-3xl font-bold text-white">{{ branding.footerTitle }}</h3>

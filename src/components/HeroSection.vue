@@ -105,4 +105,8 @@ const scrollToContact = () => {
 .animate-float {
     animation: float 6s ease-in-out infinite;
 }
+
+h1 {
+    line-height: normal !important;
+}
 </style>

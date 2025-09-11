@@ -364,7 +364,7 @@ export const projects = [
     name: "Ordinal Swap",
     handle: "Ordinal Swap",
     url: "https://munchswap.xyz",
-    images: ["/assets/shurk.gif"],
+    images: ["/assets/munchswap.webp"],
     description: [
       "swap ordinal assets",
       "integrated bitcoin wallets",
