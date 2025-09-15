@@ -15,7 +15,8 @@
                     <div class="ml-10 flex items-baseline space-x-8">
                         <a v-for="item in props.navItems" :key="item.name" :href="item.href"
                             class="text-white hover:text-gray-300 px-3 py-2 text-sm font-medium transition-colors duration-200"
-                            :class="{ 'border-b-2 border-white': item.active }">
+                            :class="{ 'border-b-2 border-white': item.active }"
+                            @click="handleNavClick(item.name)">
                             {{ item.name }}
                         </a>
                     </div>
@@ -45,7 +46,7 @@
                 class="px-2 pt-2 pb-3 space-y-1 bg-gradient-to-r from-gray-900/95 via-primary-900/95 to-secondary-900/95 backdrop-blur-md">
                 <a v-for="item in props.navItems" :key="item.name" :href="item.href"
                     class="text-white hover:text-gray-300 block px-3 py-2 text-base font-medium"
-                    @click="mobileMenuOpen = false">
+                    @click="handleNavClick(item.name); mobileMenuOpen = false">
                     {{ item.name }}
                 </a>
             </div>
@@ -68,5 +69,11 @@ const props = defineProps({
     }
 })
 
+const emit = defineEmits(['nav-click'])
+
 const mobileMenuOpen = ref(false)
+
+const handleNavClick = (itemName) => {
+    emit('nav-click', itemName)
+}
 </script>
